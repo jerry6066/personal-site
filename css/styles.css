@@ -2,6 +2,8 @@ body {
   ;
 }
 
+
+
 .name {
   font-size: 3rem;
   font-family: 'Pacifico', cursive;
@@ -181,10 +183,45 @@ body {
 }
 
 .icon-container {
-  margin-left: 35%;
-  width: 30%;
+  margin-left: 40%;
+  width: 20%;
   display: flex;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 800px) {
+  .icon-container {
+    margin-left: 35%;
+    width: 30%;
+  }
+
+  .front {
+    left: 50%;
+    margin-left: -200px;
+  }
+
+  .intro-block {
+    left: 50%;
+    margin-left: -250px;
+  }
+
+  .back-left {
+    height: 500px;
+    width: 100%;
+  }
+
+  .back-right  {
+    height: 900px;
+    width: 100%;
+  }
+
+  .hello {
+    text-align: center;
+  }
+
+  h2 {
+    text-align: center;
+  }
 }
 
 .copyright {
