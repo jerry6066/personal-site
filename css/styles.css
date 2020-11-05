@@ -117,7 +117,7 @@ body {
 
 .middle-section {
   background-color: #e8ffff;
-  height: 800px;
+  padding-bottom: 70px;
 }
 
 .skill-row {
@@ -149,7 +149,7 @@ body {
 
 .bottom-section {
   background-color: #51adcf;
-  height: 800px;
+  padding-bottom:30px;
 }
 
 .my-hobbies {
@@ -177,14 +177,12 @@ body {
 
 .footer {
   background-color: #e8ffff;
-  padding-left: 40%;
-  padding-right: 40%;
   height: 100px;
 }
 
 .icon-container {
-  padding-left: 20%;
-  padding-right: 20%;
+  margin-left: 35%;
+  width: 30%;
   display: flex;
   justify-content: space-between;
 }
