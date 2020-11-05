@@ -1,0 +1,194 @@
+body {
+  ;
+}
+
+.name {
+  font-size: 3rem;
+  font-family: 'Pacifico', cursive;
+}
+
+.page {
+  font-size: 1.5rem;
+  font-family: "Montserrat-Light";
+}
+
+.heading {
+  padding: 30px 100px 20px 100px;
+}
+
+.blank-section {
+  height: 132px;
+}
+
+.top-section {
+  height: 900px;
+}
+
+.back-left {
+  background-color: #51adcf;
+  height: 900px;
+  width: 40%;
+  float: left;
+}
+
+.back-right  {
+  background-color: #e8ffff;
+  height: 900px;
+  width: 60%;
+  float: right;
+}
+
+.intro-block {
+  position: relative;
+  padding-left: 30px;
+  top: 20%;
+  left: 150px;
+  height: 500px;
+  width: 500px;
+
+}
+
+.hello {
+  padding-top: 30px;
+  font-size: 6rem;
+  font-family: "Montserrat-Light";
+}
+
+.project-button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.self-intro {
+  padding-top: 20px;
+  margin-right: 20px;
+  font-family: "Montserrat";
+}
+
+.front {
+  background-color: #a3d8f4;
+  height: 500px;
+  width: 400px;
+  left: 25%;
+  z-index: 1;
+  position: relative;
+  top: 20%;
+  box-shadow: -5px 10px 15px #888888;
+}
+
+.my-photo {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 50px;
+  left: 100px;
+}
+
+.my-name {
+  position: absolute;
+  top: 280px;
+  width: 400px;
+  text-align: center;
+}
+
+.line {
+  position: relative;
+  width: 50px;
+  height: 340px;
+  left: 175px;
+  border-bottom: 1px solid #41aea9;
+}
+
+.position1 {
+  position: absolute;
+  top: 360px;
+  width: 400px;
+  height: 40px;
+  text-align: center;
+}
+
+.position2 {
+  position: absolute;
+  top: 400px;
+  width: 400px;
+  height: 40px;
+  text-align: center;
+}
+
+.middle-section {
+  background-color: #e8ffff;
+  height: 800px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.my-skills {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.computer-img {
+  width: 20%;
+  margin-right: 30px;
+  float: left;
+}
+
+.chillies-img {
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+.bottom-section {
+  background-color: #51adcf;
+  height: 800px;
+}
+
+.my-hobbies {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: black;
+  font-weight: normal;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.hobby-row {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.hobby-column {
+  padding: 3% 5%;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+.footer {
+  background-color: #e8ffff;
+  padding-left: 40%;
+  padding-right: 40%;
+  height: 100px;
+}
+
+.icon-container {
+  padding-left: 20%;
+  padding-right: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyright {
+  text-align: center;
+}
