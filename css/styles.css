@@ -199,7 +199,7 @@ hr {
   justify-content: space-between;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
   .icon-container {
     margin-left: 35%;
     width: 30%;
