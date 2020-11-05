@@ -273,6 +273,12 @@ hr {
   }
 }
 
+@media screen and (max-width: 1600px) and (min-width: 1200px) {
+  .front {
+    left: 20%;
+  }
+}
+
 .copyright {
   text-align: center;
 }
