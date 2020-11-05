@@ -1,7 +1,15 @@
 body {
-  ;
+  background-color: #e8ffff;
 }
 
+
+hr {
+  border: dotted #2d6187 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 10px auto;
+  visibility: hidden;
+}
 
 
 .name {
@@ -59,6 +67,8 @@ body {
 .project-button {
   margin-top: 20px;
   margin-bottom: 20px;
+  width: 150px;
+  font-size:1.3rem;
 }
 
 .self-intro {
@@ -196,14 +206,18 @@ body {
   }
 
   .front {
+    top: 180px;
     left: 50%;
     margin-left: -200px;
   }
 
   .intro-block {
+    top: 180px;
     left: 50%;
     margin-left: -250px;
   }
+
+
 
   .back-left {
     height: 500px;
@@ -211,8 +225,12 @@ body {
   }
 
   .back-right  {
-    height: 900px;
+    height: 700px;
     width: 100%;
+  }
+
+  .top-section {
+    height: 1200px;
   }
 
   .hello {
@@ -221,6 +239,27 @@ body {
 
   h2 {
     text-align: center;
+  }
+
+  hr {
+    visibility: visible;
+  }
+
+  .hobby-column {
+    position: relative;
+    left: 50%;
+    margin-left: -10rem;
+
+  }
+
+  .self-intro {
+    text-align: center;
+  }
+
+  .project-button {
+    position: relative;
+    left: 50%;
+    margin-left: -75px;
   }
 }
 
