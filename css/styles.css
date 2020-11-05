@@ -257,7 +257,8 @@ hr {
   .hobby-column {
     position: relative;
     left: 50%;
-    margin-left: -10rem;
+    padding: 3% 0;
+    margin-left: -9rem;
 
   }
 
