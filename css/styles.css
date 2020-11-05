@@ -94,6 +94,7 @@ hr {
   height: 200px;
   top: 50px;
   left: 100px;
+  border-radius: 50%;
 }
 
 .my-name {
