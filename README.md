@@ -22,8 +22,8 @@ This site can adjust layout according to different display pixels on different d
 * Finishing layout on projects.html
 * Adjusting layout on different devices
 * Filling in contents on index.html
+* Filling in contens on projects.html
 
 
 ### Todo
-* Filling in contens on projects.html
 * Fixing potential bug: skill part on index.html may display improperly on device less than 950px
