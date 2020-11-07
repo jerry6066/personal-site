@@ -150,7 +150,7 @@ hr {
 }
 
 .skill-row {
-  
+
   width: 950px;
   margin: 100px auto 100px auto;
   text-align: left;
@@ -301,6 +301,18 @@ hr {
 
 
 /* css in projects.html  */
+.project-name a:link {
+  color: black;
+}
+
+.project-name a:visited {
+  color: black;
+}
+
+.project-name a:hover {
+  color: #16697a;
+}
+
 .projects {
   width: 100%;
   background-color: #51adcf;
@@ -309,10 +321,10 @@ hr {
 .projects-header {
   text-align: center;
   font-family: "Montserrat-Light";
-  width: 600px;
+  width: 700px;
   position: relative;
   left:50%;
-  margin-left:-300px;
+  margin-left:-350px;
   padding-top: 120px;
   padding-bottom: 20px;
 }
@@ -347,12 +359,13 @@ hr {
 .project-name {
   margin-top: 10%;
   padding-left: 40px;
+  margin-bottom: 30px;
   border-left: 10px solid;
 }
 
 .project-description {
   font-family: 'Montserrat', sans-serif;
-  padding: 20px 50px;
+  padding: 0 50px;
 }
 
 .project-pic {
