@@ -371,6 +371,7 @@ hr {
 .project-pic {
   width: 40%;
   height: 100%;
+  background-color: #d4e2d4;
 }
 
 .adjust-left {
@@ -388,4 +389,9 @@ hr {
   max-height: 100%;
   width: auto;
   height: auto;
+  object-fit: contain;
+}
+
+.project-icon {
+  font-size: 1rem;
 }
